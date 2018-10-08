@@ -1,0 +1,9 @@
+version: '2'
+services:
+  postgres:
+    image: "postgres:9.6.8"
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: "depot"
+      POSTGRES_PASSWORD: "depot"
